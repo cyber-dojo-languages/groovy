@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/java:1.8
+FROM  openjdk:8-jdk-alpine
 LABEL maintainer=jon@jaggersoft.com
 
 RUN apk update \

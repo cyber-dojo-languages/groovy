@@ -1,6 +1,7 @@
-# Groovy
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/groovy.svg?branch=master)
+[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/groovy.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/groovy)
+
+## image_name="cyberdojofoundation/groovy"
 
 [Version=2.4.12](https://github.com/cyber-dojo-languages/groovy/blob/master/check_version.sh)
 

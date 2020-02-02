@@ -1,4 +1,3 @@
-
 [![CircleCI](https://circleci.com/gh/cyber-dojo-languages/groovy.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/groovy)
 
 ## image_name="cyberdojofoundation/groovy"

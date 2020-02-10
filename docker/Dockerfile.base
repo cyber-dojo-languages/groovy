@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:13-jdk-alpine
 LABEL maintainer=jon@jaggersoft.com
 
 ARG VERSION=2.4.12

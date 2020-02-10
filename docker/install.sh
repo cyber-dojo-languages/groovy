@@ -1,5 +1,4 @@
-#!/bin/sh
-set -e
+#!/bin/sh -eu
 
 apk update
 apk add openssl

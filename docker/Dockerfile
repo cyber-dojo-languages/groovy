@@ -13,7 +13,7 @@ RUN apk add --update coreutils bash tar file
 
 LABEL maintainer=jon@jaggersoft.com
 
-ARG VERSION=3.0.0
+ARG VERSION=2.4.12
 
 COPY install.sh .
 RUN ./install.sh && rm -f ./install.sh

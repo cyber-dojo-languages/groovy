@@ -1,6 +1,7 @@
 FROM openjdk:13-jdk-alpine
 LABEL maintainer=jon@jaggersoft.com
 
+RUN pwd
 ARG VERSION=3.0.3
 
 COPY install.sh .

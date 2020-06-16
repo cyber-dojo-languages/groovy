@@ -2,7 +2,7 @@ FROM openjdk:13-jdk-alpine
 LABEL maintainer=jon@jaggersoft.com
 
 RUN pwd
-ARG VERSION=3.0.3
+ARG VERSION=2.4.12
 
 COPY install.sh .
 RUN ./install.sh && rm -f ./install.sh

@@ -6,7 +6,7 @@ readonly JSON=`cat docker/image_name.json`
 readonly IMAGE_NAME="${BASH_REMATCH[1]}"
 
 readonly MY_DIR="$( cd "$( dirname "${0}" )" && pwd )"
-readonly EXPECTED=2.4.12
+readonly EXPECTED=3.0.3
 readonly ACTUAL=$(docker run --rm -it ${IMAGE_NAME} sh -c 'groovyc --version')
 
 if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then

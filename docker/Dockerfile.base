@@ -1,7 +1,7 @@
-FROM amazoncorretto:8-alpine3.18-jdk
+FROM amazoncorretto:8-alpine-jdk
 LABEL maintainer=jon@jaggersoft.com
 
-ARG VERSION=4.0.9
+ARG VERSION=4.0.23
 
 COPY install.sh .
 RUN ./install.sh && rm -f ./install.sh
